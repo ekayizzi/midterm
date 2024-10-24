@@ -12,7 +12,7 @@ Answer:
 """
 
 # Make sure "tinyllama" or "llama3.2" is accessible in your environment
-model = OllamaLLM(model="llama3.2")
+model = OllamaLLM(model="tinyllama")
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 
